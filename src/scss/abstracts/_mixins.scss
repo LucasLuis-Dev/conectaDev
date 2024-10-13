@@ -1,5 +1,13 @@
 @mixin button {
     cursor: pointer;
+    border-radius: 10rem;
+    transition: 200ms all;
+    background-color: $color-primary;
+    color: white;
+    font-weight: 600;
+    border: none;
+    padding: 1rem 3.5rem;
+    font-size: 1.5rem;
 
     &:link,
     &:visited {
@@ -23,8 +31,8 @@
     }
 
     &:hover {
-        transform: translateY(-0.3rem);
-        box-shadow: 0 1rem 2rem rgba($color-black, .2);
+        transform: translateY(-0.1rem);
+        box-shadow: 0 .5rem 2rem rgba($color-black, .2);
     }
 
     &:active {
@@ -34,14 +42,14 @@
 
     &--transparent {
         background-color: transparent;
-        color: $color-text-gray;
+        color: $color-primary;
         font-weight: 600;
-        border: 0.1rem solid $color-text-gray;
+        border: 0.2rem solid $color-primary;
 
         &:hover {
             color: $color-white;
-            border: 0.1rem solid $color-black;
-            background-color: $color-black;
+            border: 0.2rem solid $color-primary;
+            background-color: $color-primary;
         }
     }
 

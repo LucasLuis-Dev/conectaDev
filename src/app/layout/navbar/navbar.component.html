@@ -1,13 +1,23 @@
 <nav class="container">
 
-    <a href="">
+    <a class="logo" [routerLink]="['/']">
         ConectaDev
     </a>
 
-    <ul>
-        <li>Quem somos</li>
-        <li>Beneficios</li>
-        <li>Contato</li>
+    <ul class="navegation-list">
+        <li class="navegate-item">Quem somos</li>
+        <li class="navegate-item">Beneficios</li>
+        <li class="navegate-button">
+            <button class="nav-button nav-button--transparent">
+                Registrar
+            </button>
+        </li>
+
+        <li class="navegate-button">
+            <button class="nav-button">
+                Entrar
+            </button>
+        </li>
     </ul>
 
 </nav>
