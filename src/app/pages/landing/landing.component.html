@@ -10,50 +10,64 @@
         </div>
     
         <figure class="header-image">
-            <img src="assets/Group-Chat-bro.svg" alt="">
+            <img src="assets/header.svg" alt="">
         </figure>
     </header>
 
     <section class="section grid">
-        <h1 class="section-title">Quem somos?</h1>
 
-        <app-paragraph 
-        text="Bem-vindo ao ConectaDev! Sou um desenvolvedor apaixonado por tecnologia, e criei esta plataforma para conectar desenvolvedores como você. Aqui, podemos compartilhar ideias, trocar informações e colaborar em projetos inovadores."
-        ></app-paragraph>
+        <figure class="box-img">
+            <img src="assets/who-i-am.svg" alt="">
+        </figure>
 
-        <app-paragraph
-        text="Acredito que o compartilhamento de conhecimentos é essencial para o crescimento da comunidade de desenvolvedores. ConectaDev oferece um ambiente acolhedor, cheio de oportunidades para aprender e se conectar com outros profissionais que compartilham nossa paixão pela tecnologia."></app-paragraph>
+        <div class="box-informations">
+            <h1 class="section-title white">Quem somos?</h1>
+
+            <app-paragraph fontSize="2rem" color="white"
+            text="Sou um desenvolvedor apaixonado por tecnologia, e criei esta plataforma para conectar desenvolvedores como você. Aqui, podemos compartilhar ideias, trocar informações e colaborar em projetos inovadores."
+            ></app-paragraph>
+    
+            <app-paragraph  fontSize="2rem" color="white"
+            text="Acredito que o compartilhamento de conhecimentos é essencial para o crescimento da comunidade de desenvolvedores. ConectaDev oferece um ambiente acolhedor, cheio de oportunidades para aprender e se conectar com outros profissionais que compartilham nossa paixão pela tecnologia."></app-paragraph>
+        </div>      
     </section>
 
-    <section class="section flex">
-        <h1 class="section-title">Beneficios</h1>
+    <section class="section grid benefits">
+        <div class="box-informations">
+            <h1 class="section-title">Beneficios</h1>
 
-        <div class="section-paragraph-reduced">
+           
             <app-paragraph
-            text="No ConectaDev, você encontrará uma série de benefícios que tornam a sua experiência única. Conecte-se com outros desenvolvedores, amplie sua rede de contatos e explore novas oportunidades de colaboração. A plataforma incentiva o compartilhamento de conhecimentos, permitindo que você troque ideias e experiências com profissionais de diferentes níveis."
-            align="center">
+            text="A plataforma incentiva o compartilhamento de conhecimentos, permitindo que você troque ideias e experiências com profissionais de diferentes níveis."
+            fontSize="2rem">
             </app-paragraph>
-        </div>
+           
+        
     
+            <ul class="section-list-benefit">
+                <li class="benefit-item">
+                    <span>Networking</span>
+                    <img src="assets/networking.png" alt="">
+                </li>
+                <li class="benefit-item">
+                    <span>Compartilhamento de Conhecimento</span>
+                    <img src="assets/compartilhamento-de-ideias.png" alt="">
+                </li>
+                <li class="benefit-item">
+                    <span>Projetos Colaborativos</span>
+                    <img src="assets/colaboracao.png" alt="">
+                </li>
+                <li class="benefit-item">
+                    <span>Crescimento Profissional</span>
+                    <img src="assets/progresso.png" alt="">
+                </li>
+            </ul>
+        </div>
 
-        <ul class="section-list-benefit">
-            <li class="benefit-item">
-                <span>Networking</span>
-                <img src="assets/networking.png" alt="">
-            </li>
-            <li class="benefit-item">
-                <span>Compartilhamento de Conhecimento</span>
-                <img src="assets/compartilhamento-de-ideias.png" alt="">
-            </li>
-            <li class="benefit-item">
-                <span>Projetos Colaborativos</span>
-                <img src="assets/colaboracao.png" alt="">
-            </li>
-            <li class="benefit-item">
-                <span>Crescimento Profissional</span>
-                <img src="assets/progresso.png" alt="">
-            </li>
-        </ul>
+        <figure class="box-img">
+            <img src="assets/benefits.svg" alt="">
+        </figure>
+        
     </section>
    
 </div>
